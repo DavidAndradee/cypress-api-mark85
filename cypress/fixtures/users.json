@@ -1,0 +1,30 @@
+{
+  "login": {
+    "name": "David",
+    "email": "david1999andrade@gmail.com",
+    "password": "teste1"
+  },
+  "inv_pass": {
+    "email": "david1999andrade@gmail.com",
+    "password": "teste123"
+  },
+  "email_404": {
+    "email": "david1999@gmail.com",
+    "password": "teste123"
+  },
+  "create": {
+    "name": "David Andrade",
+    "email": "davidandrade.sec@gmail.com",
+    "password": "teste2"
+  },
+  "dup_email": {
+    "name": "james",
+    "email": "james@gmail.com",
+    "password": "teste2"
+  },
+  "required": {
+    "name": "james",
+    "email": "james@hotmail.com",
+    "password": "teste2"
+  }
+}

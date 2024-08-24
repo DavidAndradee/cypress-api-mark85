@@ -1,0 +1,27 @@
+{
+    "create": {
+        "user": {
+            "name": "David",
+            "email": "david1999andrade@gmail.com",
+            "password": "teste1"
+        },
+        "task": {
+            "name": "Pagar Vinicius",
+            "tags": [
+                "divida",
+                "moto",
+                "mensal"
+            ]
+        }
+    },
+    "dup": {
+        "user": {
+            "name": "Estudante",
+            "email": "estudante@gmail.com",
+            "password": "estudante"
+        },
+        "task": {
+            "name": "Ver SQL server"
+        }
+    }
+}

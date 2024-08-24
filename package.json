@@ -1,0 +1,28 @@
+{
+  "name": "mark65-cypress-api",
+  "version": "1.0.0",
+  "description": "Projeto de testes de API do Mark85",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "mongodb",
+    "rabbitmq"
+  ],
+  "author": "David Andrade",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure": "^0.0.0",
+    "commandline": "^0.0.2",
+    "cypress": "^13.13.2",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "remove": {
+        "user": {
+            "name": "Tony Stark",
+            "email": "tony@hotmail.com",
+            "password": "teste2"
+        },
+        "tasks": {
+            "name": "cria o ultron 2.0",
+            "tags": [
+                "exclusive",
+                "mortal"
+            ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "kakashi",
+            "email": "kakashi@hotmail.com",
+            "password": "teste2"
+        },
+        "tasks": {
+            "name": "kamui 2.0"
+        }
+    }
+}

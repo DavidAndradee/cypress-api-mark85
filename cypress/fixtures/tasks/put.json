@@ -1,0 +1,27 @@
+{
+    "update": {
+        "user": {
+            "name": "Susuke",
+            "email": "sasuke@hotmail.com",
+            "password": "teste2"
+        },
+        "tasks": {
+            "name": "aprender chidory",
+            "tags": [
+                "exclusive",
+                "mortal",
+                "ninjutsu"
+            ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "sakura",
+            "email": "sakura@hotmail.com",
+            "password": "teste2"
+        },
+        "tasks": {
+            "name": "aprender a não ser trouxa"
+        }
+    }
+}

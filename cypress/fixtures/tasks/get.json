@@ -1,0 +1,45 @@
+{
+    "list": {
+        "user": {
+            "name": "Estudante",
+            "email": "estudante@gmail.com",
+            "password": "estudante"
+        },
+        "tasks": [
+            {
+                "name": "V&r SQL server"
+            },
+            {
+                "name": "V&r Jankinns"
+            },
+            {
+                "name": "V&r BDD + Cypress"
+            }
+        ]
+    },
+    "unique": {
+        "user": {
+            "name": "Tony Stark",
+            "email": "tony@hotmail.com",
+            "password": "teste2"
+        },
+        "tasks": {
+            "name": "Contruri a Mark87",
+            "tags": [
+                "ark",
+                "nanotec",
+                "friday"
+            ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "naruto",
+            "email": "naruto@hotmail.com",
+            "password": "teste2"
+        },
+        "tasks": {
+            "name": "aprender rasegan"
+        }
+    }
+}

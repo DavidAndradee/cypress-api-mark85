@@ -1,0 +1,27 @@
+Iniciar Ecosistema, ambiente da aplicação.
+
+acessar o diretorio da mark85/api e executar
+
+```
+npm run dev
+```
+acessar o diretorio da mark85/web e executar
+
+```
+npm run dev
+```
+acessar o diretorio da mark85/mail e executar
+
+```
+npm run dev
+```
+
+Tecnologias usadas:
+
+MongoDB
+RabbitMQ
+Cypress
+
+
+
+
