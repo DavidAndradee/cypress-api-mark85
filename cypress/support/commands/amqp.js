@@ -17,7 +17,7 @@ Cypress.Commands.add('purgeQueueMessages', () => {
 //acessar fila de mansagens
 Cypress.Commands.add('getMessageQueue', ()=>{
     cy.api({
-        url: Cypress.env('amqpHost') + '/tasks/contents'+'/tasks/get',
+        url: Cypress.env('amqpHost') +'/tasks/get',
         method: 'POST',
         body: {
             vhost: 'ffwcjtyy',

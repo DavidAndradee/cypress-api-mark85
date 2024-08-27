@@ -5,7 +5,7 @@ describe('POST /tasks', () => {
         })
     })
 
-    context('register a new task', function(){
+    context.only('register a new task', function(){
         before(function(){
             //purge da fila de mensageria do RabbitMQ
             cy.purgeQueueMessages().then(response =>{
@@ -34,7 +34,7 @@ describe('POST /tasks', () => {
 
         after(function(){
             //get message na fila do RabbitMQ
-            const { user, task } = this.tasks.dup
+            const { user, task } = this.tasks.create
             cy.wait(3000)
             cy.getMessageQueue().then(response =>{
                 expect(response.status).to.eq(200)

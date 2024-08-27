@@ -1,27 +1,31 @@
-Iniciar Ecosistema, ambiente da aplicação.
+## Iniciando o Ecossistema da Aplicação
 
-acessar o diretorio da mark85/api e executar
+# OBS: Aplicação dutilizada para os testes está mockada localmente. 
 
-```
-npm run dev
-```
-acessar o diretorio da mark85/web e executar
+Para iniciar o ambiente de desenvolvimento, siga os passos abaixo:
 
-```
-npm run dev
-```
-acessar o diretorio da mark85/mail e executar
+1. **Inicie o Servidor da API:**
 
-```
-npm run dev
-```
+    Navegue até o diretório `mark85/api` e execute o comando:
 
-Tecnologias usadas:
+    ```bash
+    npm run dev
 
-MongoDB
-RabbitMQ
-Cypress
+2. **Inicie o Frontend da Aplicação:**
 
+    Naveigue até o diretório `mark85/web` e execute o comenado:
 
+    ```bash
+    npm run dev
 
+3. **Inicie o Servidor de E-mails:**
 
+    Navegue até o diretório mark85/mail e execute o comando:
+        ```bash
+    npm run dev
+
+### Tecnologias Utilizadas
+
+    MongoDB: Banco de dados NoSQL utilizado para armazenar dados da aplicação.
+    RabbitMQ: Sistema de mensageria utilizado para comunicação entre serviços.
+    Cypress: Ferramenta de teste automatizado end-to-end utilizada para garantir a qualidade da aplicação.

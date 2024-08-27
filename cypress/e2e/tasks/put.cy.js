@@ -19,16 +19,12 @@ describe('PUT /task/:id/done', () => {
                 cy.putTaskDone(taskResp.body._id, respUser.body.token).then(response => {
                     expect(response.status).to.eq(204)
                 })
-
                 cy.getUniqueTask(taskResp.body._id, respUser.body.token).then(response => {
                     expect(response.body.is_done).to.be.true
                 })
-
             })
-
         })
     });
-
 
     it('task not found', function () {
         const { user, tasks } = this.tasks.not_found
